@@ -1,0 +1,14 @@
+{
+  "name": "space-identifier-and-removal",
+  "version": "1.0.0",
+  "description": "Space Identifier & Removal",
+  "main": "main-electron.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^17.1.2"
+  }
+}
