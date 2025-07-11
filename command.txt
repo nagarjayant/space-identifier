@@ -1,8 +1,8 @@
 Windows:
-npx electron-packager . space-identifier-and-removal --platform=win32 --arch=x64 --icon=icon.ico --overwrite
+npx electron-packager . space-identifier-and-removal --platform=win32 --arch=x64 --icon=app_new.ico --overwrite
 
 
 Mac:
-npx electron-packager . space-identifier-and-removal --platform=darwin --arch=x64 --icon=icon.icns --overwrite
+npx electron-packager . space-identifier-and-removal --platform=darwin --arch=x64 --icon=app.icns --overwrite
 
 
