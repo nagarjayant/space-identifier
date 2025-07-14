@@ -6,7 +6,11 @@
     Fonts
 \* ------------------------------------------------------------ */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf") format("ttf");
+}
+
 /* ------------------------------------------------------------ *\
     Base Css
 \* ------------------------------------------------------------ */
@@ -89,7 +93,7 @@ header {
   border-radius: 10px;
   border: 1px solid #000;
   position: relative;
-  white-space:nowrap;
+  white-space: nowrap;
 }
 #inputArea {
   width: 100%;
